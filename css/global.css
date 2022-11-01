@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(75, 23, 75);
+    font-family: Andale Mono, monospace;
+    color: black;
+}
+
+.topo_pedido{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+.fecha_mesa{
+    width: 100%;
+    text-align: initial;
+}
+.top_m{
+    width: 100%;
+}
+.cliente_mesa{
+    width: 100%;
+    text-align: end;
+}
+
+
+/* botões */
+.btn_verde{
+    width: 5rem;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(43, 209, 37);
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    color:  white;
+    text-align: center;
+    font-size: 2rem;
+    border: 0;
+    text-shadow: 2px 2px 2px rgb(94, 18, 94);
+    box-shadow: 3px 3px 8px rgb(94, 18, 94);
+
+    transition: box-shadow 0.3s ease, transforma 0.3s ease;
+}
+.btnverde:active{
+    box-shadow: 0 0 0 0 rgb(94, 18, 94), inset 3px 3px 3px rgb(94, 18, 94);
+    transform: translate(3px, 3px);
+}
+
+.btn_vermelho{
+    width: 5rem;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(235, 16, 16);
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    color:  white;
+    text-align: center;
+    font-size: 2rem;
+    border: 0;
+    text-shadow: 2px 2px 2px rgb(94, 18, 94);
+    box-shadow: 3px 3px 8px rgb(94, 18, 94);
+
+    transition: box-shadow 0.3s ease, transforma 0.3s ease;
+}
+.btnvermelho:active{
+    box-shadow: 0 0 0 0 rgb(94, 18, 94), inset 3px 3px 3px rgb(94, 18, 94);
+    transform: translate(3px, 3px);
+}
+
+.grupo_btn{
+    text-align: center;
+    display: block;
+    
+}
+/* .btn_top_cadastro{
+    width: 32%;
+    height: 2rem;
+    background-color: rgb(197, 70, 197);
+    color: white;
+    border: 0;
+} */
+.btn_top_cadastro {
+    border-color: rgb(197, 70, 197);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(197, 70, 197) inset, 0 0 0 0 rgb(197, 70, 197);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 30%;
+    height: 2rem;
+    background-color: rgb(197, 70, 197);
+    color: white;
+    border: 0;
+    text-decoration: none;
+  }
+  .btn_top_cadastro:hover {
+    box-shadow: 0 0 10px 0 rgb(197, 70, 197) inset, 0 0 10px 4px rgb(197, 70, 197);
+    background-color: white;
+    color: black;
+  }
+.btn_a{
+    text-decoration: none;
+    color: white;
+}
+.btn_top_cadastro:hover .btn_a{
+    color: black;
+}
+
+/* stylos inputs */
+div.entrada_de_dados{
+    width: 100%;
+    margin: 30px 0;
+    position: relative;
+}
+
+div.entrada_de_dados label{
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+div.entrada_de_dados .campo_padrao{
+    width: 100%;
+    padding: 0;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0;
+    font-size: 16px;
+}
+
+div.entrada_de_dados .campo_padrao:focus,
+div.entrada_de_dados .campo_padrao:valid{
+    border-bottom: 2px solid rgb(197, 70, 197);
+}
+
+div.entrada_de_dados .campo_padrao:focus ~ label,
+div.entrada_de_dados .campo_padrao:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 15px;
+    color: rgb(174, 19, 174);
+}
+
+
+

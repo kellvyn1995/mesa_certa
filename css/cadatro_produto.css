@@ -1,0 +1,166 @@
+.conteudo{
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+.coluna{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+/* .coluna1{
+
+} */
+.coluna2{
+    margin-top: -3rem;
+}
+
+
+hr{
+    border-top: 2px dotted rgb(150, 150, 150);
+}
+h1{
+    text-align: center;
+}
+
+.btn_cadastro{
+    margin-top: -2.91rem;
+    text-align: end;
+}
+
+.btn_volta{
+    
+    display: inline-block;
+    
+}
+
+.bloco_img{
+    background-color: rgb(197, 70, 197);
+    border-radius: 1rem;
+    height: 8.9rem;
+    width: 10rem;
+    margin-bottom: -0.55rem;
+}
+.bloco_img label{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_produto{
+    border-radius: 1rem;
+    margin-top: -9rem;
+    height: 9rem;
+    width: 10rem;
+}
+.miniatura{
+    border-radius: 1rem;
+    height: 9rem;
+    width: 10rem;
+}
+/* Basicamente, o atributo div.bloco_img do rótulo faz com que clicar no rótulo seja o mesmo que clicar na entrada especificada . */
+.bloco_img>input {
+    display: none;
+}
+
+.conteudo_cadastrado{
+    background-color: white;
+    margin: 0.2rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+.dados_produto{
+    display: flex;
+}
+
+.arm_img_bloco{
+    background-color: white;
+    height: auto;
+    width: auto;
+    max-height: 7rem;
+    max-width: 7rem;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0.5rem;
+}
+.arm_img{
+    height: auto;
+    width: auto;
+    max-height: 5rem;
+    max-width: 7rem;
+    padding: 0.7rem;
+}
+
+.arm_dado{
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.tipo_valor{
+    background-color: white;
+    height: auto;
+    width: auto;
+    max-height: 7rem;
+    max-width: 5rem;
+    padding: 1rem;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.btn_conteudo_cadastrado{
+    margin-top: 0.5rem;
+    width: 5rem;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(235, 16, 16);
+    height: 2.2rem;
+    border-radius: 0.3rem;
+    color:  white;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0;
+    text-shadow: 2px 2px 2px rgb(94, 18, 94);
+    box-shadow: 3px 3px 8px rgb(94, 18, 94);
+
+    transition: box-shadow 0.3s ease, transforma 0.3s ease;
+}
+
+.btn_conteudo_cadastrado:active{
+    box-shadow: 0 0 0 0 rgb(94, 18, 94), inset 3px 3px 3px rgb(94, 18, 94);
+    transform: translate(3px, 3px);
+}
+
+@media(max-width: 700px){
+    .dados_produto{
+        text-align: center;
+        display: block;
+    }
+    .arm_img{
+        max-height: 7rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .arm_img_bloco{
+        border-radius: 10px 10px 10px 10px;
+        max-height: 7rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .tipo_valor{
+        border-radius: 10px 10px 10px 10px;
+        max-height: 7rem;
+        max-width: 100%;
+    }
+}

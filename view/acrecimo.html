@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kellvyn Dias">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/cadatro_categoria.css">
+    <!-- mascara jquery, mini img-->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+
+    <title>Cadastro Acréscimo</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="conteudo">
+            <div class="topo_pedido">
+                <div class="top_m"><h1>CADASTRO DE ACRÉSCIMO</h1></div>
+                
+            </div>
+            <div class="grupo_btn">
+                <button type="button" class="btn_top_cadastro"><a href="../view/categoria.html" class="btn_a">CATEGORIA</a></button>
+                <button type="button" class="btn_top_cadastro"><a href="../view/cadastro_produto.html" class="btn_a">PRODUTO</a></button>
+                <button type="button" class="btn_top_cadastro"><a href="../view/acrecimo.html" class="btn_a">ACRECIMO</a></button>
+            </div>
+            <hr>
+            <h3>Dados do Acréscimo:</h3>
+
+            <div class="entrada_de_dados">
+                <input class="campo_padrao" type="text"  id="nome_acrescimo" required>
+                <label for="nome_acrescimo">Nome do Acréscimo</label>  
+            </div>
+            <div class="entrada_de_dados">
+                <input class="valor_produto campo_padrao" type="text" id="valor_acrescimo" required>
+                <label for="valor_acrescimo">Valor do Acréscimo</label>  
+            </div>
+
+            <hr>
+                <div class="btn_volta">
+                    <button class="btn_vermelho btn vermelho">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-reply-fill" viewBox="0 0 16 16">
+                        <path d="M5.921 11.9 1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"/>
+                      </svg>
+                    </button>
+                </div>
+                <div class="btn_cadastro">
+                    <button type="button" class="btn_verde btnverde">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                          </svg>
+                    </button>
+                </div>
+        </div>
+    </form>
+
+    <div class="conteudo_cadastrado">
+        <div class="dados_produto">
+            <div class="arm_bloco1">
+                <label for="">Acréscimo: Morango</label><br>
+            </div>
+            <div class="arm_bloco2">
+                <label for="">Valor: R$1,50</label>
+                <!-- <button class="btn_conteudo_cadastrado">Excluir</button> -->
+            </div>
+            <div class="arm_bloco3">
+                <button class="btn_conteudo_cadastrado">Excluir</button>
+            </div>
+        </div>
+    </div>
+ 
+<script src="../js/mascara.js"></script>
+</body>
+</html>
+

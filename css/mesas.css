@@ -1,0 +1,129 @@
+.conteudo{
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    min-height: 33rem;
+    text-align: center;
+    position: relative;
+}
+hr{
+    border-top: 2px dotted rgb(150, 150, 150);
+}
+.top_m h1{
+  color: rgb(114, 23, 114);
+  text-shadow: 22px 20px 5px rgb(197, 70, 197);
+  font-size: 4rem;
+  display: inline;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+.bloco_mesa{
+    max-width: 20rem;
+    max-height: 6rem;
+    width: 8rem;
+    height: 4rem;
+    text-align: center;
+    display: inline-block;
+    margin: 0.1rem;
+    background-color: brown;
+    border-radius: 0.3rem;
+}
+
+.btn_mesa {
+    border-color: rgb(197, 70, 197);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(197, 70, 197) inset, 0 0 0 0 rgb(197, 70, 197);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(197, 70, 197);
+    color: white;
+    border: 0;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px rgb(94, 18, 94);
+  }
+  .btn_mesa:hover {
+    box-shadow: 0 0 15px 0 rgb(197, 70, 197) inset, 0 0 15px 4px rgb(94, 18, 94);
+    background-color: white;
+    color: black;
+  }
+
+  .btn_mesa_livre {
+    border-color: rgb(43, 209, 37);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(43, 209, 37) inset, 0 0 0 0 rgb(197, 70, 197);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 209, 37);
+    color: white;
+    border: 0;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px rgb(94, 18, 94);
+  }
+  .btn_mesa_livre:hover {
+    box-shadow: 0 0 15px 0 rgb(43, 209, 37) inset, 0 0 15px 4px rgb(43, 209, 37);
+    background-color: white;
+    color: black;
+  }
+
+  .btn_mesa_aberta {
+    border-color: rgb(240, 233, 13);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(240, 233, 13) inset, 0 0 0 0 rgb(197, 70, 197);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 18, 94);
+    color: white;
+    border: 0;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px rgb(94, 18, 94);
+  }
+  .btn_mesa_aberta:hover {
+    box-shadow: 0 0 15px 0 rgb(240, 233, 13) inset, 0 0 15px 4px rgb(240, 233, 13);
+    background-color: white;
+    color: black;
+  }
+
+  .btn_mesa_fechada {
+    border-color: rgb(235, 16, 16);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(235, 16, 16) inset, 0 0 0 0 rgb(197, 70, 197);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 18, 94);
+    color: white;
+    border: 0;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px rgb(94, 18, 94);
+  }
+  .btn_mesa_fechada:hover {
+    box-shadow: 0 0 15px 0 rgb(235, 16, 16) inset, 0 0 15px 4px rgb(235, 16, 16);
+    background-color: white;
+    color: black;
+  }
+

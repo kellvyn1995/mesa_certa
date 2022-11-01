@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kellvyn Dias">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/mesa.css">
+    <!-- mascara jquery, mini img-->
+    <script src="../js/modal.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+    <title>Pedido</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="conteudo">
+            <div class="topo_pedido">
+                <div class="fecha_mesa"></div>
+                <div class="top_m"><h1>PEDIDO</h1></div>
+                <div class="cliente_mesa">
+                </div>
+            </div>
+            
+            <hr>
+            <div class="busca_produto">
+                <label for="" id="busca_pro_pedido_label">Cliente:</label>
+                <select name="" id="busca_pro_pedido">
+                    <option value="01">cliente unico</option>
+                    <option value="02">Maria</option>
+                </select>
+                <label for="busca_pro_pedido" id="busca_pro_pedido_label">Busca:</label>
+                <input type="text" id="busca_pro_pedido">
+                <button type="button" class="btn_busca" onclick="chama_modal_02()"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></button>
+            </div>
+
+            <div class="produtos_pedidos">
+                <div class="bloco_pedido_0">
+                    <div class="bloco_pedido_01">
+                        <div class="bloco_pedido_02"><label for="" id="busca_p_m">Nome: Pizza Calabresa</label></div>
+                        <div class="bloco_pedido_03"><button type="button" class="btn_bloco_pedido_03">-</button></div>
+                        <div class="bloco_pedido_04">3</div>
+                        <div class="bloco_pedido_05"><button type="button" class="btn_bloco_pedido_05">+</button></div>
+                    </div>
+                    <div class="bloco_pedido_06">
+                        <button type="button" class="btn_acre_bloco" onclick="chama_modal_01()"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                        </svg> Acrecimo</button>
+                        <textarea name="" id="obs" cols="32" rows="3" placeholder="Observação"></textarea>
+                    </div>
+                </div>
+                <div class="bloco_pedido_0">
+                    <div class="bloco_pedido_01">
+                        <div class="bloco_pedido_02"><label for="" id="busca_p_m">Nome: Pizza Calabresa</label></div>
+                        <div class="bloco_pedido_03"><button type="button" class="btn_bloco_pedido_03">-</button></div>
+                        <div class="bloco_pedido_04">3</div>
+                        <div class="bloco_pedido_05"><button type="button" class="btn_bloco_pedido_05">+</button></div>
+                    </div>
+                    <div class="bloco_pedido_06">
+                        <button type="button" class="btn_acre_bloco"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                        </svg> Acrecimo</button>
+                        <textarea name="" id="obs" cols="32" rows="3" placeholder="Observação"></textarea>
+                    </div>
+                </div>
+                <div class="bloco_pedido_0">
+                    <div class="bloco_pedido_01">
+                        <div class="bloco_pedido_02"><label for="" id="busca_p_m">Nome: Pizza Calabresa</label></div>
+                        <div class="bloco_pedido_03"><button type="button" class="btn_bloco_pedido_03">-</button></div>
+                        <div class="bloco_pedido_04">3</div>
+                        <div class="bloco_pedido_05"><button type="button" class="btn_bloco_pedido_05">+</button></div>
+                    </div>
+                    <div class="bloco_pedido_06">
+                        <button type="button" class="btn_acre_bloco"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                        </svg> Acrecimo</button>
+                        <textarea name="" id="obs" cols="32" rows="3" placeholder="Observação"></textarea>
+                    </div>
+                </div>
+                <div class="bloco_pedido_0">
+                    <div class="bloco_pedido_01">
+                        <div class="bloco_pedido_02"><label for="" id="busca_p_m">Nome: Pizza Calabresa</label></div>
+                        <div class="bloco_pedido_03"><button type="button" class="btn_bloco_pedido_03">-</button></div>
+                        <div class="bloco_pedido_04">3</div>
+                        <div class="bloco_pedido_05"><button type="button" class="btn_bloco_pedido_05">+</button></div>
+                    </div>
+                    <div class="bloco_pedido_06">
+                        <button type="button" class="btn_acre_bloco"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                        </svg> Acrecimo</button>
+                        <textarea name="" id="obs" cols="32" rows="3" placeholder="Observação"></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <span class="btn_opcao">
+                <button type="button" class="btn_vermelho btnvermelho">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-reply-fill" viewBox="0 0 16 16">
+                    <path d="M5.921 11.9 1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"/>
+                  </svg>
+                </button>
+
+                <button type="button" class="btn_verde_adicionar">                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                  </svg></button>
+            </span>
+        </div>
+    </form>
+
+    <div class="modal_01">
+        <div class="fecha_modal_01">
+            <button type="button" class="btn_fecha_modal_01" onclick="chama_modal_01_fecha()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 20 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="conteudo_modal_01">
+
+        </div>
+    </div>
+
+    <div class="modal_02">
+        <div class="fecha_modal_02">
+            <button type="button" class="btn_fecha_modal_02" onclick="chama_modal_02_fecha()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x" viewBox="0 0 20 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="conteudo_modal_02">
+            
+        </div>
+    </div>
+
+ 
+<script src="../js/mascara.js"></script>
+</body>
+</html>
+

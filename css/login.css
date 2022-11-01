@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(75, 23, 75);
+    font-family: Andale Mono, monospace;
+    color: black;
+}
+
+.bloco_login{
+    text-align: center;
+    width: 20rem;
+    height: auto;
+    border-radius: 0.5rem;
+    background-color: white;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    display: block;
+    padding: 0.5rem;
+    animation: animate;
+    animation-duration: 1500ms;
+}
+@keyframes animate{
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.bloco_login_01{
+    margin-top: 1rem;
+}
+
+.bloco_login_02{
+    padding: 0;
+
+}
+
+.btn_entra {
+    border-color: rgb(197, 70, 197);
+    color: #fff;
+    box-shadow: 0 0 40px 40px rgb(197, 70, 197) inset, 0 0 0 0 rgb(197, 70, 197);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 30%;
+    height: 2rem;
+    background-color: rgb(197, 70, 197);
+    color: white;
+    border: 0;
+    text-decoration: none;
+  }
+  .btn_entra:hover {
+    box-shadow: 0 0 10px 0 rgb(197, 70, 197) inset, 0 0 10px 4px rgb(197, 70, 197);
+    background-color: white;
+    color: black;
+  }

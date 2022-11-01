@@ -1,0 +1,94 @@
+.conteudo{
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    
+}
+
+
+hr{
+    border-top: 2px dotted rgb(150, 150, 150);
+}
+.top_m h1{
+    color: rgb(114, 23, 114);
+    text-shadow: 22px 20px 5px rgb(197, 70, 197);
+    font-size: 4rem;
+    display: inline;
+}
+
+.btn_cadastro{
+    margin-top: -2.91rem;
+    text-align: end;
+}
+
+.btn_volta{
+    
+    display: inline-block;
+    
+}
+
+.conteudo_cadastrado{
+    background-color: white;
+    margin: 0.2rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+.dados_produto{
+    display: flex;
+}
+
+
+.arm_bloco1{
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.arm_bloco2{
+    padding: 1.2rem;
+    margin-left: auto;
+}
+.arm_bloco3{
+    margin: 1rem;
+    margin-left: auto;
+}
+
+.btn_conteudo_cadastrado{
+    width: 5rem;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(235, 16, 16);
+    height: 2rem;
+    border-radius: 0.3rem;
+    color:  white;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0;
+    text-shadow: 2px 2px 2px rgb(94, 18, 94);
+    box-shadow: 3px 3px 8px rgb(94, 18, 94);
+
+    transition: box-shadow 0.3s ease, transforma 0.3s ease;
+}
+
+.btn_conteudo_cadastrado:active{
+    box-shadow: 0 0 0 0 rgb(94, 18, 94), inset 3px 3px 3px rgb(94, 18, 94);
+    transform: translate(3px, 3px);
+}
+
+.conteudo_cadastrado hr{
+    border-top: 2px dotted rgb(150, 150, 150);
+}
+
+@media only screen and (max-width: 600px) {
+    .top_m h1{
+        color: rgb(114, 23, 114);
+        text-shadow: 22px 5px 5px rgb(197, 70, 197);
+        font-size: 2rem;
+        display: inline;
+    }
+}
