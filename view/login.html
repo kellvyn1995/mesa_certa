@@ -7,26 +7,27 @@
     <meta name="author" content="Kellvyn Dias">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/global.css">
-    <title></title>
+    <script src="../js/redirecionado.js"></script>
+    <title>Login</title>
 </head>
 <body>
-    <div class="bloco_login">
-        <div class="bloco_login_01">
-            <img src="../img/logo_mesa_certa.png" alt="">
-        </div>
-        <div class="bloco_login_02">
-            <div class="entrada_de_dados">
-                <input type="text" id="login_usuario" class="campo_padrao" required>
-                <label for="login_usuario">Úsuario:</label>
+        <div class="bloco_login">
+            <div class="bloco_login_01">
+                <img src="../img/logo_mesa_certa.png" alt="">
             </div>
-            <div class="entrada_de_dados">
-                <input type="password" id="login_senha" class="campo_padrao" required>
-                <label for="login_senha">Senha:</label>
+            <div class="bloco_login_02">
+                <div class="entrada_de_dados">
+                    <input type="text" name="email_usuario" id="login_usuario" class="campo_padrao" required>
+                    <label for="login_usuario">Úsuario:</label>
+                </div>
+                <div class="entrada_de_dados">
+                    <input type="password" name="senha_usuario" id="login_senha" class="campo_padrao" required>
+                    <label for="login_senha">Senha:</label>
+                </div>
+            </div>
+            <div class="bloco_login_03">
+                <button type="submit" class="btn_entra" onclick="fluxo('mesas')">ENTRA</button>
             </div>
         </div>
-        <div class="bloco_login_03">
-            <button type="button" class="btn_entra">ENTRA</button>
-        </div>
-    </div>
 </body>
 </html>

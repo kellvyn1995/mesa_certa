@@ -13,12 +13,12 @@
 hr{
     border-top: 2px dotted rgb(150, 150, 150);
 }
-.top_m h1{
+/* .top_m h1{
     color: rgb(114, 23, 114);
     text-shadow: 22px 20px 5px rgb(197, 70, 197);
     font-size: 4rem;
     display: inline;
-  }
+  } */
 .footer{
     position: absolute;
     left: 0;
@@ -131,17 +131,17 @@ hr{
     transform: translate(3px, 3px);
 }
 
-.topo_pedido{
+/* .topo_pedido{
     width: 100%;
     display: inline-flex;
-}
+} */
 .fecha_mesa{
     width: 100%;
     text-align: initial;
 }
-.top_m{
+/* .top_m{
     width: 100%;
-}
+} */
 .cliente_mesa{
     width: 100%;
     text-align: end;

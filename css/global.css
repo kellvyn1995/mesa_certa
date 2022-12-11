@@ -142,5 +142,19 @@ div.entrada_de_dados .campo_padrao:valid ~ label{
     color: rgb(174, 19, 174);
 }
 
+.top_m h1{
+    color: rgb(114, 23, 114);
+    text-shadow: 22px 20px 5px rgb(197, 70, 197);
+    font-size: 4rem;
+    display: inline;
+}
 
+@media only screen and (max-width: 800px) {
+    .top_m h1{
+        color: rgb(114, 23, 114);
+        text-shadow: 22px 5px 5px rgb(197, 70, 197);
+        font-size: 2rem;
+        display: inline;
+    }
+}
 

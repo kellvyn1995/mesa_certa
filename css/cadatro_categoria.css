@@ -13,12 +13,7 @@
 hr{
     border-top: 2px dotted rgb(150, 150, 150);
 }
-.top_m h1{
-    color: rgb(114, 23, 114);
-    text-shadow: 22px 20px 5px rgb(197, 70, 197);
-    font-size: 4rem;
-    display: inline;
-}
+
 
 .btn_cadastro{
     margin-top: -2.91rem;
@@ -84,11 +79,3 @@ hr{
     border-top: 2px dotted rgb(150, 150, 150);
 }
 
-@media only screen and (max-width: 600px) {
-    .top_m h1{
-        color: rgb(114, 23, 114);
-        text-shadow: 22px 5px 5px rgb(197, 70, 197);
-        font-size: 2rem;
-        display: inline;
-    }
-}

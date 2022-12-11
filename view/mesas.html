@@ -11,18 +11,54 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
-
+    <script src="../js/redirecionado.js"></script>
     <title>Mesas</title>
 </head>
 <body>
-    <form action="#" method="post">
+
         <div class="conteudo">
             <div class="topo_pedido">
                 <div class="top_m"><h1>MESAS</h1></div> 
             </div>
             <hr>
             <div class="bloco_mesa">
-                <button type="button" class="btn_mesa_livre">MESA <br> 01</button>
+                <button type="button" class="btn_mesa_livre" onclick="fluxo('mesa')">MESA <br> 01</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_aberta">MESA <br> 02</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_fechada">MESA <br> 03</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 04</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 05</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 06</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_fechada">MESA <br> 07</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 08</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 09</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 10</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 11</button>
+            </div>
+            <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre">MESA <br> 12</button>
+            </div>
+                        <div class="bloco_mesa">
+                <button type="button" class="btn_mesa_livre" onclick="fluxo('mesa')">MESA <br> 01</button>
             </div>
             <div class="bloco_mesa">
                 <button type="button" class="btn_mesa_aberta">MESA <br> 02</button>
@@ -59,16 +95,13 @@
             </div>
 
             <span class="btn_volta footer">
-                <button class="btn_vermelho btn vermelho">
+                <button class="btn_vermelho btn vermelho" onclick="fluxo('volta')">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-reply-fill" viewBox="0 0 16 16">
                     <path d="M5.921 11.9 1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"/>
                   </svg>
                 </button>
             </span>
         </div>
-    </form>
-
- 
 <script src="../js/mascara.js"></script>
 </body>
 </html>
